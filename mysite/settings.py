@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'adminsortable',  # HBAnaga 20180921 1404 ‘«‚µ‚½
 ]
 
 MIDDLEWARE = [
