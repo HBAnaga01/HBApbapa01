@@ -1,26 +1,26 @@
 from django.db import models
 from django.utils import timezone
 
-### from adminsortable.models import SortableMixin  #HBAnaga20180921 1430  足した
+### from adminsortable.models import SortableMixin  #HBAnaga20180921 1430 add
 
 class Post(models.Model):
 
-### class Post(SortableMixin):  # HBAnaga20180921 1425 UP --> models.Modelから変更
+### class Post(SortableMixin):  # HBAnaga20180921 1425 UP --> models.Model up
 
 
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
     text = models.TextField()
     
-    # HBAnaga 20180921 1409 足した start
+    # HBAnaga 20180921 1409 add start
 ###    the_order = models.PositiveIntegerField(
 ###      default=0, editable=False, db_index=True)
-    # HBAnaga 20180921 1409 足した end
+    # HBAnaga 20180921 1409 add end
  
-    # HBAnaga 20180921 1409 足したstart
+    # HBAnaga 20180921 1409 add start
 ###   class Meta:
 ###        ordering = ['the_order']
-    # HBAnaga 20180921 1409 足した end
+    # HBAnaga 20180921 1409 add end
     
     
     
@@ -36,11 +36,11 @@ class Post(models.Model):
     def __str__(self):
         return self.title
         
-#HBAnaga ADD start ファイルアップロード機能
+#HBAnaga ADD start upload
 
   
 
 
-#HBAnaga ADD end ファイルアップロード機能
+#HBAnaga ADD end upload
         
         

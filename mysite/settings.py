@@ -38,12 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'adminsortable',  # HBAnaga 20180921 1404 ë´ÇµÇΩ
+    'adminsortable',  # HBAnaga 20180921 1404 add
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware', # Ç±ÇÃçsÇí«â¡
+    'whitenoise.middleware.WhiteNoiseMiddleware', # add
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

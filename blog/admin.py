@@ -1,15 +1,15 @@
 from django.contrib import admin
 
-### from adminsortable.admin import SortableAdmin  # HBAnaga20180921 1414 足した
+### from adminsortable.admin import SortableAdmin  # HBAnaga20180921 1414 add
 
 
 from .models import Post
 
-### admin.site.register(Post, SortableAdmin)  # HBAnaga2018091 1415 足した
+### admin.site.register(Post, SortableAdmin)  # HBAnaga2018091 1415 add
 
 
 ### HBAnaga20180921 1505 --> admin.site.register(Post)
-admin.site.register(Post) ### 復活
+admin.site.register(Post) ### agein
 
 
 # HBA naga add start

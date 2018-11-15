@@ -16,13 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-# HBA naga add strat 追加
 
-# admin.site.site_title = 'タイトルタグ' 
-# admin.site.site_header = 'HBAプロト基盤管理' 
-# admin.site.index_title = 'メニュー'
-
-# HBA naga add endt 追加
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
