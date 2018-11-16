@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'adminsortable',  # HBAnaga 20180921 1404 add
+    ###'adminsortable',  # HBAnaga 20180921 1404 add  --> 20181116 1105 delete
 ]
 
 MIDDLEWARE = [
